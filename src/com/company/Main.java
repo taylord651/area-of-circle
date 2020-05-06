@@ -13,7 +13,9 @@ public class Main {
         Scanner input;
 
     // feat/2: Ask user to enter a length and set user entry to the int length variable
-
+        input = new Scanner(System.in);
+        System.out.println("Please enter the length of the rectangle: ");
+        length = input.nextInt();
 
     // feat/3: Ask user to enter a width and set user entry to the int width variable
     }
