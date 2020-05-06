@@ -18,5 +18,8 @@ public class Main {
         length = input.nextInt();
 
     // feat/3: Ask user to enter a width and set user entry to the int width variable
+        System.out.println("Please enter the width of the rectangle: ");
+        width = input.nextInt();
+        input.close();
     }
 }
