@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     //feat/4: Create method to calculate area
+    public static double AreaOfRectangle(double length, double width){
+        double area = length * width;
+        return area;
+    }
 
     public static void main(String[] args) {
 	// feat/1: Setup the following variables (int length, int width, Scanner input)
