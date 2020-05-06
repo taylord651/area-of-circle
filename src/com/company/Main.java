@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     //feat/4: Create method to calculate area
-    public static double AreaOfRectangle(double length, double width){
-        double area = length * width;
+    public static int areaOfRectangle(int length, int width){
+        int area = length * width;
         return area;
     }
 
@@ -22,5 +22,7 @@ public class Main {
         length = input.nextInt();
 
     // feat/3: Ask user to enter a width and set user entry to the int width variable
+
+        System.out.println(areaOfRectangle(length,width));
     }
 }
